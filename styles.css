@@ -1,12 +1,12 @@
 /*  your css code here. If applicable */
 .container{
 	display:flex;
-	flex-wrap:wrap;
+	flex-wrap:nowrap;
 	flex-basis:auto;
 	
 }
 
-..header{
+.header{
 	background-color : #011e29;
 	color:white;
 	text-align:center;
@@ -16,8 +16,9 @@
 }
 body{
 	background-color : #f5f5f5
+	
 }
-..latest-news-section{
+.latest-news-section{
 	background-color:white;
 	padding:10px;
 	width:150px;
@@ -27,7 +28,7 @@ body{
 h4,h3{
 	text-align:center;
 }
-..Main-Article{
+.Main-Article{
 	background-color:white;
 	padding:10px;
 	width:300px;
@@ -35,8 +36,8 @@ h4,h3{
 	margin:20px;
 	
 }
-..pictorial-news-section{
-	height:350px;
+.pictorial-news-section{
+	height:300px;
 	width:150px;
 	background-color:white;
 	padding:5px;
