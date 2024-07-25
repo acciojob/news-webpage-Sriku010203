@@ -1,11 +1,10 @@
 /*  your css code here. If applicable */
 .container{
 	display:flex;
-	flex-wrap:nowrap;
-	flex-basis:auto;
+	flex-wrap:wrap;
+	/* flex-basis:auto; */
 	
 }
-
 .header{
 	background-color : #011e29;
 	color:white;
